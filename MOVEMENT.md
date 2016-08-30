@@ -7,7 +7,7 @@ KORUZA operates by aiming a collimated optical beam the opposite unit by control
 ## Motor behaviour
 Stepper motor on each axis may travel over a defined range, hard limited in the negative direction. Due to the limited power of the stepper motors, homing procedure may be done only with an encoder which observes when the movement stops in negative direction. This procedure is called Homing and is performed typically onle during production. When homing is complete, motors must move to the mid-point between 0 and max position. This now becomes the center position, in user coordinate system denoted as 0 (in motor coordiante position this has value depending on max position)
 
-![motor schematic][motor-image.png]
+![motor schematic](motor-image.png)
 
 ## Webcam behaviour
 Webcam is used with magnifying optics to provide an optical alignemnt mechanism for the user, such that the webcam must be directed towards the opposite unit. Because of mechanical error durign manufacturing, a calibration procedure is performed, such that a marker is placed on the image and the marker is then aligned with the opposite unit to establish the optical link.
@@ -27,4 +27,4 @@ User interface for positioning should consist of the following features:
  1. Maximal movement range shown as a bounding box overlay (moves as motors move, depends on motor max position) Note, may be outside the actual image.
  1. Scale denoted on the shown XY axis (depends on distance)
  
- ![ui schematic][ui-image.png]
+ ![ui schematic](ui-image.png)
