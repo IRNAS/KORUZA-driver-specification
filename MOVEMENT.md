@@ -28,3 +28,8 @@ User interface for positioning should consist of the following features:
  1. Scale denoted on the shown XY axis (depends on distance)
  
  ![ui schematic](ui-image.png)
+
+Example of what happens when motors move in positive direction.
+
+ ![ui schematic](koruza2-ui-movement.png)
+
