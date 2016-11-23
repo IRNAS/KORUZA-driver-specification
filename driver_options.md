@@ -2,11 +2,11 @@
 
 Koruza driver is an additional board to [Koruza router][link1]. Its main task is to handle real-time parts of [Koruza system][link2], like stepper motors for laser beam positioning, infrared communication between two Koruza units, encoders for stepper motors, etc. 
 
-Koruza move driver is now the seperate part (PCB) which contains magnetic encoders, stepper drivers and small ATmega328p MCU for contorling the motors and reading the encoder position. It will be connected with UART communication with Koruza driver and have one aditional RST signal for firmware upgrade.
+Koruza move driver is now the separate part (PCB) which contains magnetic encoders, stepper drivers and small ATmega328p MCU for controlling the motors and reading the encoder position. It will be connected with UART communication with Koruza driver and have one additional RST signal for firmware upgrade.
 
-Koruza driver now have to be on control of:
-* IR link - slow optical link used for comunication between Koruza units
-* current mesurment of the driver part
+Koruza driver now has to be in control of:
+* IR link - slow optical link used for communication between Koruza units
+* current measurement of the driver part
 * communicating with Koruza router board
 * communicating with Koruza move driver
 * Connecting the camera to the Koruza router board (optional, only if driver has CPU)
