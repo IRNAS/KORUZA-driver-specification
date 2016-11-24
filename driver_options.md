@@ -14,14 +14,16 @@ Koruza driver now has to be in control of:
 Posibile solutions for koruza driver:
 #### 1. [MCU (STM32) driver][link3]
 * STM32F411RE, ARM Cortex M4
-* cannot connect camera to it
+* cannot connect camera to it, camera conect to Koruza router USB2.0
 * enough for everthing else
+* camera cost: ? USD
 * cost: ? USD
 
-#### 2. [MCU (Arduino Zero) driver][link4]
-* ATSAMD21G18, ARM Cortex M0+
-* cannot connect camera to it
+#### 2. [MCU (Arduino Zero/Uno) driver][link4]
+* ATSAMD21G18, ARM Cortex M0+/8-bit AVR RISC
+* cannot connect camera to it, camera conect to Koruza router USB2.0
 * enough for everthing else
+* camera cost: ? USD
 * cost: ? USD
 
 #### 3. [CPU (RPi zero/A+) driver][link5]
@@ -36,6 +38,8 @@ Posibile solutions for koruza driver:
 * [camera][link7] cost: 20 USD
 * NEO Air cost: 16 USD
 
+
+The choice between **MCU + USB camera** and **CPU + module camera**.
 
 
  [link1]: https://github.com/IRNAS/KORUZA-router
