@@ -41,6 +41,8 @@ Posibile solutions for koruza driver:
 
 The choice between **MCU + USB camera** and **CPU + module camera**.
 
+### Options number 3. is chosen because Koruza driver will do all the Koruza necessary software, so the router board will do just the routing part.
+
 
  [link1]: https://github.com/IRNAS/KORUZA-router
  [link2]: http://koruza.net/
